@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Amigo Oculto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Amigo Oculto</h1>
+        <form id="form">
+            <input type="text" id="name" placeholder="Digite um nome" required>
+            <button type="button" id="add">Adicionar Participante</button>
+        </form>
+        <ul id="participants"></ul>
+        <button id="draw" class="draw-btn">Sortear Amigo Oculto</button>
+        <div id="results" class="hidden">
+            <h2>Resultados:</h2>
+            <ul id="pairs"></ul>
+            <button id="reset">Novo Sorteio</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
