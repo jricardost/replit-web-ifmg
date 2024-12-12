@@ -1,0 +1,13 @@
+.color-hover:hover {
+  cursor: pointer;
+  color: #1e90ff;
+}
+
+.lamp {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.lamp-on {
+  background-color: rgb(251, 216, 76);
+}
